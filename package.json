@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "my first github api which will train how to create node api from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumyasinghgithub/api.git"
+  },
+  "keywords": [
+    "node_api"
+  ],
+  "author": "Saumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumyasinghgithub/api/issues"
+  },
+  "homepage": "https://github.com/saumyasinghgithub/api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
