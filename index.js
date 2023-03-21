@@ -1,5 +1,9 @@
 const express = require('express');
+const cnf = require('dotenv');
+const _ = require('lodash');
 const app = express();
-app.listen('3000',()=>{
-    console.log('Your app running on port 3000.');
+cnf.config();
+const port = _.get(process.env,'PORT',3000);
+app.listen(port,()=>{
+    console.log(`Your app running on port ${port}.`);
 });
